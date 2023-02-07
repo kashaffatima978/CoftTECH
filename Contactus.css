@@ -1,0 +1,78 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.maindiv {
+    border: 1px solid rgb(247, 179, 57);
+}
+
+.leftSide {
+    max-height: 80%;
+    max-width: 100%;
+    text-align: center;
+    padding: 10%;
+}
+
+.headerBar {
+    margin-bottom: 0%;
+}
+
+.rightSide {
+    background-color: #495057;
+    padding: 2%;
+    color: white;
+}
+
+.rightSide label {
+   float: left;
+}
+
+.rightSide input {
+    width: 100%;
+}
+
+.btn {
+    max-width: 200px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem; /* 18px */
+    font-weight: 600;
+    line-height: 1.75rem; /* 28px */
+    padding: 1rem 1.25rem;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: 1s;
+}
+  
+.btn:hover {
+    box-shadow: none;
+    color: rgb(247, 179, 57);;
+}
+  
+@media (min-width: 1024px) {
+    .btn {
+      font-size: 1.5rem; /* 24px */
+      padding: 1rem 1.5rem;
+      line-height: 2rem; /* 32px */
+    }
+}
+
+.error {
+    width: 500px!important;
+    float: left;
+    
+    word-wrap: none;
+   
+    text-align: left;
+}

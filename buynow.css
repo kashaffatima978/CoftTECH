@@ -1,0 +1,66 @@
+body {
+    padding: 00.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.h1 {
+    text-align: center;
+    border: 1px solid orange;
+    margin-top: 0%;
+    padding: 2%;
+    background-color: darkgrey;
+    color: rgb(247, 179, 57);
+    margin-bottom: 5%;
+
+}
+
+.price {
+    color: rgb(247, 179, 57); 
+    display: inline;
+}
+.btnclass {
+    background-color: rgb(247, 179, 57);
+    background-image: linear-gradient(to bottom right, lightgray, #b7b7a4, rgb(247, 179, 57));
+    border: 0;
+    border-radius: .25rem;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    /* 18px */
+    font-weight: 600;
+    line-height: 1.75rem;
+    /* 28px */
+    padding: 1rem 1.25rem;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btnclass:hover {
+    box-shadow: none;
+    color: rgb(247, 179, 57);
+}
+
+@media (min-width: 1024px) {
+    .btnclass {
+        font-size: 1.5rem;
+        /* 24px */
+        padding: 1rem 1.5rem;
+        line-height: 2rem;
+        /* 32px */
+    }
+}
+
+p {
+    word-break: break-all;
+    white-space: normal;
+    
+}
+
+.one {
+    font-size: 25px;
+}

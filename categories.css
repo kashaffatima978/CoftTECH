@@ -1,0 +1,141 @@
+/****************  side bar ********************/
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #6c757d;
+    height: auto;
+    overflow: auto;
+    position: relative;
+  }
+
+  .category img {
+    opacity: 0.7;
+    width: 100%;
+    height: 20%;
+    max-height: 550px;
+    
+  }
+
+  .category .h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 0.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    margin-top: 3%;
+}
+
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #212529;
+    color: rgb(247, 179, 57);
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color:rgb(247, 179, 57);
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+}
+
+.shophead {
+    background-color: #6c757d;
+    letter-spacing: 00.5em;
+    height: 100%;
+    color: rgb(247, 179, 57);
+    text-align: center;
+}
+/****************  Sections ********************/
+#Components {
+    width: 70vw;
+    height: auto;
+}
+
+.mainProducts {
+    align-items: center;
+    justify-content: center;
+}
+body {
+    overflow-x: hidden;
+}
+.compDiv {
+    background-color: #cfdbd5;
+    width: 100%;
+}
+
+.product {
+    margin-top: 5%;
+    transition: 1.3s;
+    padding: 1%;
+}
+
+.mainProducts {
+    margin-bottom: 5%;
+}
+
+.product:hover {
+    box-shadow: #b7b7a4;
+    opacity: 0.7;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.product img {
+    max-width: 70%;
+}
+
+/* back up button */
+
+#myBtn {
+ 
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  left: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: gray; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgb(247, 179, 57); /* Add a dark-grey background on hover */
+}

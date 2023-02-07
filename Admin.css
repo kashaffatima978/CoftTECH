@@ -1,0 +1,83 @@
+.header{
+    background-color: rgb(247, 179, 57);
+    height: 15%;
+    margin-top: 0%;
+    text-align: center;
+    padding: 1%;
+    position: fixed;
+    width: 100%!important;
+    
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* box-sizing: border-box; */
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 0%;
+    top: 15%;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: rgb(247, 179, 57);
+  }
+  
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+.main{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 200px;
+   padding: 2%;
+}
+
+.btnrow {
+    padding: 2%;
+
+}
+
+.addbtn {
+    margin-right: 38%;
+}
+
+.blogrow2 {
+    margin-left: 2%;
+}
+.row3 {
+align-self: center;
+}
+
+.blog-div img {
+    max-width: 85%;
+    max-height: 55%;
+
+}
+
+.uploaded img {
+    max-width: 90%;
+    max-height: 90%;
+}

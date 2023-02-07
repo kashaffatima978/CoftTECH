@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Admin.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Admin</title>
+</head>
+<body>
+
+    <div class="header">
+        <h2>Admin Dashboard</h2>
+    </div>
+    <div class="sidenav">
+        <a href="Admin.html">Blogs</a>
+        <a href="eventAdmin.html">Events</a>
+        <a href="product.html">products</a>
+      </div>
+      
+
+      <div class="main">
+
+        <section id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-6 col-lg-6">
+                        <h2>Blogs</h2>
+                        <label for="title">Enter Title</label><br>
+                        <input type="text" value="title"/><br>
+                        <label for="blog"> write your blog here.</label><br>
+                        <textarea name="blog" id="blogtext" cols="50" rows="10" placeholder="Blog text here."></textarea>
+                    </div>
+                    
+                    <div class="col-3 col-md-3 col-lg-3 blogrow2">
+                        <label for="categoryblog">Select category</label>
+                        <select name="categoryblog id="categoryblog">
+                            <option value="IOT">IOT</option>
+                            <option value="AI">Artifical Intelligence</option>
+                            <option value="mobileDev">Mobile development</option>
+                            <option value="customSE">Custom software development</option>
+                          </select>
+                          <br><br>
+                          <button class="addimgbtn">Add image +</button>   
+
+                    </div>
+
+                    
+                </div>
+
+                <div class="row btnrow">
+                    <button class="addbtn">Add</button>
+                    <button class="deletebtn">Delete</button>
+
+                </div>
+
+                <div class="row3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
+                        Previous blogs
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Uploaded Blogs</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4 col-md-4 col-lg-4">
+                                            <div class="shadow blog-div">
+                                                <img src="Images/blog1.jpg" alt="karachi online market">
+                                                <p>Popular Online Grocery Stores in Karachi That Are Making Your Life Easier</p>
+                                                
+                                              </div>
+                                        </div>
+
+                                        <div class="col-4 col-md-4 col-lg-4">
+                                            <div class="shadow blog-div">
+                                                <img src="Images/blog3.jpg" alt="karachi online market">
+                                                <p>What to Expect from Your Visit to Pakistan Pavilion at Dubai Expo 2020</p>
+                                                
+                                              </div>
+                                        </div>
+
+                                        <div class="col-4 col-md-4 col-lg-4">
+                                            <div class="shadow blog-div">
+                                                <img src="Images/blog4.jpg" alt="karachi online market">
+                                                <p>SBP Launches ‘Raast’—Pakistan’s First Instant Digital Payment System</p>
+                                              </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Select</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
